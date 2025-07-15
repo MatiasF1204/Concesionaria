@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.btn-modificar,
+.btn-eliminar {
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-modificar {
+  background-color: #007bff;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+}
+
+.btn-modificar:hover,
+.btn-eliminar:hover {
+  opacity: 0.85;
+}
+
+.mensaje-vacio {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+.back {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-volver {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-volver:hover {
+  background-color: #218838;
+}

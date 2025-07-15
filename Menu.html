@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú Principal - Concesionaria Web</title>
+  <link rel="stylesheet" href="./styles/Menu.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Menú Principal</h1>
+
+    <section class="menu-section">
+      <h2>Clientes</h2>
+      <ul>
+        <li><a href="./php/cliente/Registrar.php">Registrar cliente</a></li>
+        <li><a href="./php/cliente/Listar.php">Listar clientes</a></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h2>Autos</h2>
+      <ul>
+        <li><a href="./php/auto/Registrar.php">Registrar auto</a></li>
+        <li><a href="./php/auto/Listar.php">Listar autos</a></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h2>Revisiones</h2>
+      <ul>
+        <li><a href="./php/revision/Registrar.php">Registrar revisión</a></li>
+        <li><a href="./php/revision/Listar.php">Listar revisiones</a></li>
+        <li><a href="./php/revision/BuscarSegunFechas.php">Buscar revisiones según periodo de tiempo</a></li>
+        <li><a href="./php/revision/BuscarRevision.php">Buscar revisión segun auto o cliente</a></li>
+        <li><a href="./php/revision/ListarNoFinalizadas.php">Revisiones no finalizadas</a></li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      <a href="./php/usuario/InicioSesion.php" class="back-link">Cerrar Sesión</a>
+    </div>
+  </div>
+</body>
+</html>
